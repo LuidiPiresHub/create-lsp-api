@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "module": "node16",
+    "target": "ES2022",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@routes/*": ["./src/routes/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@services/*": ["./src/services/*"],
+      "@config/*": ["./src/config/*"],
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@middlewares/*": ["./src/middlewares/*"]
+    }
+  }
+}
