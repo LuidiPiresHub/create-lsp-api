@@ -1,6 +1,6 @@
 {
   "name": "create-lsp-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "author": "Luidi Pires",
@@ -9,7 +9,16 @@
     "typescript",
     "express",
     "prisma",
-    "api"
+    "api",
+    "CRUD",
+    "template",
+    "backend",
+    "REST",
+    "server",
+    "project-template",
+    "starter",
+    "typescript-backend",
+    "express-server"
   ],
   "bin": {
     "create-lsp-api": "index.js"
